@@ -11,7 +11,7 @@ int main(){
 	vector<string> ans;
 	do{
 		ans.push_back(s);
-	}while(next_permutation(s.begin(), s.end());
+	}while(next_permutation(s.begin(), s.end()));
 
 	cout << ans.size() << "\n";
 	for(string a: ans){
