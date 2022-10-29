@@ -26,7 +26,7 @@ int main(){
 
     for (int i = 0; i < n; ++i){
         for (int j = x; j >= h[i]; --j){
-            dp[x] = max(dp[x], dp[x - h[i]] + s[i]);
+            dp[j] = max(dp[j], dp[j - h[i]] + s[i]);
         }
     }
 
